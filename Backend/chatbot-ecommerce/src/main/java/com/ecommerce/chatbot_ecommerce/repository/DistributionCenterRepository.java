@@ -1,0 +1,9 @@
+package com.ecommerce.chatbot_ecommerce.repository;
+
+import com.ecommerce.chatbot_ecommerce.model.DistributionCenter;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DistributionCenterRepository extends JpaRepository<DistributionCenter, String> {
+}
